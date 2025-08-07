@@ -1,22 +1,72 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-  </head>
-  
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo • Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
 <body>
-    <img src="Minha imagem" alt="avatar do Leonardo" srcset="">
-    <p>Eu sou Leonardo_</p>
-    <h1>Eu sou Programador</h1>
-    <p>Estudo no Colégio Estadual João de Oliveira Franco, e estou cursando o curso de Programação do Alura</p>
-    <p>Minhas habilidades</p>
-    <div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
+
+  <header>
+    <nav>
+      <h1>Leonardo</h1>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Olá, eu sou o Leonardo</h2>
+      Interessado por programação</p>
     </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <div>
+        <h2>Sobre mim</h2>
+        <p>Sou estudante do 2º ano do ensino médio. Me dedico a aprender mais sobre o mundo da tecnologia através de projetos em Scratch, Java e HTML. Gosto de criar, programar e descobrir soluções criativas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Scratch</h3>
+        <p>Desenvolvi jogos e histórias interativas com blocos de programação visual.</p>
+      </div>
+      <div class="card">
+        <h3>Java</h3>
+        <p>Criei programas simples com interface gráfica e lógica de programação estruturada.</p>
+      </div>
+      <div class="card">
+        <h3>HTML</h3>
+        <p>Montei páginas web com estrutura clara, estilizadas com CSS e interações básicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Entre em contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Leonardo. Todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>
